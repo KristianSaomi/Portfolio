@@ -35,7 +35,7 @@ export default function Home() {
           <h1 className="text-xl font-burtons" > Developed by kris</h1>
           <ul className="flex items-center">
             <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/></li>
-            <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
+            <li><a className="bg-gradient-to-r from-teal-500 to-teal-500 hover:bg-gradient-to-l from-teal-500 to-red-500 shadow-xl text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
           </ul>
         </nav>
 
